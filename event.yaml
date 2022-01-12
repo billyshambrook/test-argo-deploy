@@ -14,6 +14,18 @@ spec:
       command: [cowsay]
       args: ["hello worldss"]   # This template runs "cowsay" in the "whalesay" image with arguments "hello world"
 ---
+apiVersion: argoproj.io/v1alpha1
+kind: EventBus
+metadata:
+  name: default
+spec:
+  nats:
+    native:
+      # Optional, defaults to 3. If it is < 3, set it to 3, that is the minimal requirement.
+      replicas: 3
+      # Optional, authen strategy, "none" or "token", defaults to "none"
+      auth: token
+---
 apiVersion: v1
 kind: ServiceAccount
 metadata:
