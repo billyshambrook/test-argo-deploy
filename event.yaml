@@ -86,3 +86,10 @@ spec:
         name: hello-world
         argoWorkflow:
           operation: resubmit
+          source:
+            resource:
+              apiVersion: argoproj.io/v1alpha1
+              kind: Workflow
+              metadata:
+                name: hello-world
+                namespace: app-team
