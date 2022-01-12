@@ -12,7 +12,7 @@ spec:
     container:
       image: docker/whalesay
       command: [cowsay]
-      args: ["hello worldss"]   # This template runs "cowsay" in the "whalesay" image with arguments "hello world"
+      args: ["hello worldsss"]   # This template runs "cowsay" in the "whalesay" image with arguments "hello world"
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: EventBus
