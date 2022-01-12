@@ -12,7 +12,7 @@ spec:
     container:
       image: docker/whalesay
       command: [cowsay]
-      args: ["hello world"]   # This template runs "cowsay" in the "whalesay" image with arguments "hello world"
+      args: ["hello worlds"]   # This template runs "cowsay" in the "whalesay" image with arguments "hello world"
 ---
 apiVersion: v1
 kind: ServiceAccount
