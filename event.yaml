@@ -2,6 +2,8 @@ apiVersion: argoproj.io/v1alpha1
 kind: Workflow
 metadata:
   name: hello-world  # Name of this Workflow
+  labels:
+    app: hello-world
 spec:
   synchronization:
     mutex:
