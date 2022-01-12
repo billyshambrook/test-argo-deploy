@@ -76,7 +76,7 @@ spec:
         labels:
           - key: app
             operation: "=="
-            value: my-workflow
+            value: hello-world
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Sensor
