@@ -4,7 +4,7 @@ metadata:
   name: hello-world
   namespace: app-team
 spec:
-  module: some-module:v7
+  module: some-module:v8
   envFrom:
   - secretRef:
       name: hello-world
