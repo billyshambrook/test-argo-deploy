@@ -4,4 +4,4 @@ metadata:
   name: hello-world
   namespace: app-team
 spec:
-  module: some-module:v2
+  module: some-module:v3
