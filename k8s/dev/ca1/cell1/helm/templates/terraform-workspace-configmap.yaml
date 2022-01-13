@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: terraform-workspace-{{ include "app.fullname" . }}
+data:
+  name: {{ include "app.fullname" . }}
