@@ -1,0 +1,11 @@
+global:
+  name:
+  env:
+  region:
+  cell:
+  gitOrg:
+  gitRepo:
+
+terraform:
+  serviceAccount:
+    annotations: {}
